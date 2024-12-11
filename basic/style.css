@@ -1,0 +1,36 @@
+h1,h2{
+    color: red;
+}
+p{
+    font-weight: bold;
+    font-size: 20px;
+    background-color: lightpink;
+}
+.odd{
+    font-size: 20px;
+    font-family: cursive ;
+    background-color: lightblue;
+}
+.border{
+    border: 5px solid black;
+    background-color: aqua;
+    color: grey;
+}
+.even{
+    font-size: 20px;
+    font-family: cursive;
+    background-color: lightgreen;
+}
+/* elemental selector having lowest priority  */
+/* in class the priority is from top to bottom, bottom having highest priority */
+/* in a web page id shoulb be unique  */
+#normal{
+    font-size: 16px;
+    background-color: white;
+    color: black;
+}
+*{
+    font-size: 16px;
+    background-color: white;
+    color: black; 
+}

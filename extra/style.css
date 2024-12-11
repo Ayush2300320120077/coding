@@ -1,0 +1,15 @@
+p{
+    border: 3px solid red;
+}
+.img1{
+    float: left;
+    margin: 20px;
+}
+.img2{
+    float:right;
+    margin: 20px;
+}
+.c1{
+    clear: left;
+}
+

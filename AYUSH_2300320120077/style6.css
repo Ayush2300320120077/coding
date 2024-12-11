@@ -1,0 +1,44 @@
+body{
+    background-image: url(bgabes.jpeg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    backdrop-filter: blur(5px);
+}
+h1{
+    font-family: fantasy;
+    color: black;
+    text-align: center;
+}
+.content-box{
+background-image: url(cs.png);
+ backdrop-filter: blur(10px);
+background-size: cover;
+background-repeat: no-repeat;
+padding: 10px;
+margin: auto;
+color: black;
+font-weight: bold;
+width: 60%;
+border-radius: 20px;
+}
+h2{
+    font-family: sans-serif;
+    color: gold;
+    text-align: center;
+}
+.button{
+    background-color: rgb(170, 255, 0);
+    text-align: center;
+    padding: 10px 20px;
+    text-decoration: underline;
+    font-weight: bold;
+    display: inline-block;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 10px;
+    font-size: 110%;
+}
+.button:hover{
+    background-color: pink;
+    align-items: center;
+}
